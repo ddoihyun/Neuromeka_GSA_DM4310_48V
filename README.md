@@ -15,22 +15,22 @@ GSA DM4310 모터 드라이버(CAN 통신)를 제어 및 테스트하는 시스�
 ```
 
 ## ⚙️ Python 환경 설정
-Step1 - venv라는 이름의 가상환경 생성
+Step1️⃣ - venv라는 이름의 가상환경 생성
 ```
 python -m venv venv
 ```
 
-Step2 - Windows에서 가상환경 활성화
+Step2️⃣ - Windows에서 가상환경 활성화
 ```
 venv\Scripts\activate
 ```
 
-Step3 - pip 최신 버전으로 업데이트
+Step3️⃣ - pip 최신 버전으로 업데이트
 ```
 pip install --upgrade pip
 ```
 
-Step4 - 프로젝트 의존성 설치
+Step4️⃣ - 프로젝트 의존성 설치
 ```
 pip install -r requirements.txt
 ```
