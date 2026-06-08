@@ -1,0 +1,11 @@
+fastapi<1
+uvicorn[standard]<1
+jinja2<4
+python-multipart<1
+python-can<5
+pysoem<2
+pytest<9
+httpx<1
+pyserial
+uptime
+dmcan
