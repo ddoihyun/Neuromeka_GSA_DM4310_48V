@@ -7,7 +7,7 @@ GSA DM4310 모터 드라이버(CAN 통신)를 제어 및 테스트하는 시스�
 ```
 220V AC → SMPS → DC 24V
                     ↓
-              GSA DM4310 (전원 + CAN H/L)
+              GSA DM-J4310-2EC (전원 + CAN H/L)
                     ↑
               PEAK CAN USB Adapter 또는 DM Tools (USB2CAN)
                     ↑
