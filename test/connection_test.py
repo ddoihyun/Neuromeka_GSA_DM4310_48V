@@ -12,7 +12,7 @@ def list_can_devices():
         configs = can.detect_available_configs(interfaces="pcan")
 
         if not configs:
-            print("PCAN 장치를 찾을 수 없습니다.")
+            print("PCAN 장치를 찾을 수 없습니다.\n")
             return
 
         for idx, cfg in enumerate(configs, start=1):
@@ -33,7 +33,7 @@ def list_serial_ports():
     ports = serial.tools.list_ports.comports()
 
     if not ports:
-        print("시리얼 포트를 찾을 수 없습니다.")
+        print("시리얼 포트를 찾을 수 없습니다.\n")
         return
 
     for idx, port in enumerate(ports, start=1):
